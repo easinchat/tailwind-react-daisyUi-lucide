@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import { use } from "react";
 import PricingCard from "../PricingCard/PricingCard";
 
 const PricingOptions = ({ pricingPromise }) => {
