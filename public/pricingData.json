@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "$79",
+    "duration": "month",
+    "description": "Perfect for beginners who want access to essential gym facilities and start their fitness journey.",
+    "features": [
+      "Gym Access",
+      "Locker Facility",
+      "Free WiFi",
+      "Changing Room Access",
+      "Water Station Access",
+      "Cardio Equipment Access",
+      "Weight Training Area Access",
+      "1 Group Class per Week",
+      "Basic Fitness Assessment",
+      "Mobile App Access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Plan",
+    "price": "$89",
+    "duration": "month",
+    "description": "Designed for committed members who want additional classes, nutrition guidance, and progress tracking.",
+    "features": [
+      "Unlimited Gym Access",
+      "Locker Facility",
+      "Free WiFi",
+      "Unlimited Group Classes",
+      "Custom Diet Plan",
+      "Fitness Assessment",
+      "Monthly Progress Tracking",
+      "Body Composition Analysis",
+      "Recovery Area Access",
+      "Nutrition Guidance",
+      "Guest Pass (2 per Month)",
+      "Premium Locker",
+      "Mobile App Premium Features"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Elite Plan",
+    "price": "$99",
+    "duration": "month",
+    "description": "Our most comprehensive membership with personal training, VIP benefits, and premium wellness services.",
+    "features": [
+      "24/7 Gym Access",
+      "Dedicated Personal Trainer",
+      "Custom Workout Program",
+      "Premium Diet Plan",
+      "Sauna & Spa Access",
+      "VIP Locker",
+      "Private Training Sessions",
+      "Advanced Body Analysis",
+      "Priority Equipment Booking",
+      "Unlimited Guest Passes",
+      "Nutrition Coaching",
+      "Monthly Health Checkup",
+      "Exclusive Member Events",
+      "Premium Mobile App Features",
+      "Priority Support"
+    ]
+  }
+]
