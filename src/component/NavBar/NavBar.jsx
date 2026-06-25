@@ -42,7 +42,7 @@ const NavBar = () => {
   ));
 
   return (
-    <nav className="flex justify-between mx-10">
+    <nav className="flex justify-between mx-10 mt-4">
       <span
         className="flex gap-4"
         onClick={() => {
@@ -54,26 +54,34 @@ const NavBar = () => {
         ) : (
           <Menu className="md:hidden"></Menu>
         )}
-        <ul className="md:hidden">{links}</ul>
+        <ul
+          className={`md:hidden absolute z-10 duration-1000
+           ${open ? "top-10" : "-top-40"}
+            bg-amber-400 text-black`}
+        >
+          {links}
+        </ul>
 
         <h3>My Navbar</h3>
       </span>
 
       <ul className="md:flex hidden">{links}</ul>
-      {/* <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-      </ul> */}
+
       <button>Sign in</button>
     </nav>
   );
 };
 
 export default NavBar;
+
+// {/* <ul>
+//         <li>
+//           <a href="/">Home</a>
+//         </li>
+//         <li>
+//           <a href="/about">About</a>
+//         </li>
+//         <li>
+//           <a href="/blog">Blog</a>
+//         </li>
+//       </ul> */}
